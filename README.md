@@ -8,6 +8,8 @@
     - Those people might enter and leave the meeting. 
     - They may not have their cameras on and may be hard to understand. 
 - Typically they don't do live coding exercises - but they might They could ask to write a sql query, setup the webdriver, right some browser interactions (findElement(By.))
+- They do ask about your previous project experience so make sure you are refreshed on the projects you worked on during Revature
+
 
 ## Prep Schedule
 
