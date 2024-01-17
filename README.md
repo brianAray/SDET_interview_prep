@@ -1,5 +1,14 @@
 # SDET Interview Prep
 
+## Infosys Overview
+
+- Typically with Infosys we see relatively short interviews 30 - 45 mins (and usually only 1 round). 
+- The interviews tend to focus on technical aspects - but they may also ask you questions related to your past work and why you want to be a tester etc. 
+- You may speak to 1-3 people. 
+    - Those people might enter and leave the meeting. 
+    - They may not have their cameras on and may be hard to understand. 
+- Typically they don't do live coding exercises - but they might They could ask to write a sql query, setup the webdriver, right some browser interactions (findElement(By.))
+
 ## Prep Schedule
 
 - 10:00 AM - 01:00 PM

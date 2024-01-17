@@ -1,0 +1,166 @@
+# Test Team Organization
+## Testing Lifecycle
+---
+- **STLC**
+    - STLC stands for Software Testing Life Cycle. It is a framework for managing the testing process, from planning and design to execution and reporting.
+    - Phases:
+        - **Requirements Analysis** 
+            - Analyze the software requirements and identify the scope of testing.
+        - **Test Planning**
+            - Create a detailed test plan that outlines:
+                - Testing approach
+                - Testing objectives
+                - Test scenarios
+                - Test cases
+                - Resource allocation
+        - **Test Case Development**
+            - Create detailed test cases based on the test plan and requirements.
+        - **Test Environment Setup**
+            - Set up the necessary hardware, software, and network environments required for testing.
+        - **Test Execution** 
+            - Execute the test cases and identify any defects or issues.
+        - **Test Reporting**
+            - Document and report any defects or issues found during testing, along with recommendations for addressing them.
+        - **Test Closure** 
+            - Prepare the final testing report, summarize the testing process, and provide recommendations for future testing activities.
+- **Waterfall Model**
+    - The Waterfall Model is a software development methodology that emphasizes a linear and sequential process. 
+    - The prior phases must be completed in sequence before moving to the next phase
+    - The phases of Waterfall include:
+        - Requirements Gathering
+        - Design
+        - Development
+        - Testing
+        - Deployment
+        - Maintenance
+    - Some advantages of the Waterfall Model include:
+        - Clear project objectives and deliverables
+        - Well-defined roles and responsibilities
+        - Predictable project timelines and costs
+    - Some disadvantages of the Waterfall Model include:
+        - Limited flexibility to change requirements or design
+        - Difficulty accommodating changes or feedback from users
+        - High risk of discovering defects late in the development process
+- **V-Model**
+    - The V-Model is an extension of the Waterfall Model that emphasizes verification and validation. 
+    - It has a similar set of phases as the waterfall model, but with corresponding testing phases for each development phase
+    - There is also a feeback loop from the testing phases back to the developement phase to ensure defects are addressed as early as possible
+    - Some advantages of the V-Model include:
+        - Increased focus on verification and validation
+        - Better alignment of testing with development phases
+        - Early detection and resolution of defects
+    - Some disadvantages of the V-Model include:
+        - Limited flexibility to change requirements or design
+        - Difficulty accommodating changes or feedback from users
+        - High risk of discovering defects late in the development process
+- **Agile Model**
+    - The Agile Model is an iterative and incremental approach to software development. 
+    - It emphasizes collaboration, felxibility, and rapid feedback
+    - It breaks down the development process into small iterations, called sprints, each with a set of goals and deliverables
+    - Agile development teams work closely together, including developers, testers, and stakeholders, to ensure the software meets the needs of users
+    - Some advantages of the Agile Model include:
+        - Flexibility to change requirements or design as needed
+        - Better alignment of development with user needs
+        - Rapid feedback and continuous improvement
+    - Some disadvantages of the Agile Model include:
+        - Requires a high level of collaboration and communication
+        - May be difficult to estimate project timelines and costs
+        - May require more resources than other development methodologies
+## Defect Management
+---
+- **Reporting Defects**
+    - Reporting Defects involves documenting and communicating defects found during testing. 
+    - It helps to ensure that defects are properly tracked and managed and that the necessary corrective action is taken.
+- **Defect Lifecycle**
+    - The Defect Lifecycle is the process of identifying, documenting, and resolving defects in software. 
+        - Defect Identification
+        - Defect Logging
+        - Defect Analysis
+        - Defect Resolution
+        - Defect Verification.
+## Tools
+---
+- **Jira**
+    - Jira is a project management tool used for issue tracking, bug fixing, and agile project management
+    - It is a platform for teams to plan, track, and release software
+    - Key features of Jira:
+        - Issue tracking and management
+        - Agile project management with Scrum and Kanban boards
+        - Customizable workflows and issue types
+        - Reporting and dashboards
+        - Integration with other development tools such as Git, Jenkins, and Confluence
+- **Confluence**
+    - Confluence is a collaboration tool for creating, organizing, and sharing knowledge and information
+    - Provides a platform for teams to create and share documents, meeting notes, project plans, and other types of content
+    - Key features of Confluence:
+        - Team collaboration and communication
+        - Document and knowledge management
+        - Customizable templates for different types of content
+        - Search and navigation tools for finding information
+        - Integration with other development tools such as Jira and Trello
+## Roles
+---
+- **Review Roles**
+    - Review Roles include the author, moderator, and reviewer:
+        - **Author** 
+            - Responsible for creating the code
+        - **Moderator**
+            - Responsible for managing the review process
+        - **Reviewer**
+            - Responsible for identifying defects and providing feedback
+- **Test/Developer Independence**
+    - Testers should be independent from developers to ensure unbiased testing. 
+    - This helps to ensure that defects are properly identified and that
+- **Stakeholders and Business Analysts**
+    - Stakeholders provide requirements for the software, while business analysts translate those requirements into specifications. 
+    - It is important for testers to work closely with stakeholders and business analysts to ensure that the software meets the needs of the user.
+- **Tester**
+    - The Tester is responsible for designing, executing, and reporting on tests. 
+    - They ensure that the software meets the specified requirements and that any defects are properly identified and documented.
+- **Test Manager**
+    - The Test Manager is responsible for managing the testing process, including creating test plans and strategies, allocating resources, and reporting on progress. 
+    - They ensure that the testing is effective, efficient, and meets the desired quality standards.
+- **Review Techniques**
+    - Review Techniques include walkthroughs and inspections
+    - Walkthroughs involve a detailed review of the code by a group of reviewers
+    - Inspections involve a more formal process of code review.
+## Test Documents
+---
+- **Test Plan**
+    - A Test Plan is a document that outlines the testing strategy and approach.
+        - Testing
+        - Test Objectives
+        - Test Scenarios
+        - Test Cases
+    - A test plan ensures that testing is carried out in a systematic and organized manner and helps to identify any potential risks or issues before testing begins
+- **Test Strategy**
+    - A Test Strategy is a high-level plan for testing a software system. 
+        - Overall Testing Approach
+        - Testing Objectives
+        - Testing Timelines
+        - Resource Allocation
+    - A test strategy helps to ensure that testing is aligned with the overall project goals and objectives
+- **Software Requirements Specification**
+    - A software requirements specification (SRS) is a document that describes the requirements and specification for a software project
+    - It includes:
+        - Functional and Non-functional requirements
+        - User stories
+        - Use cases
+        - Acceptance Criteria
+    - This serves as a basis for the development of the software and helps to ensure the software meets the requirements set prior
+- **Test Progress Report**
+    - A test progress report is a document that provides an overview of the testing progress for a software project
+    - It includes:
+        - Testing status
+        - Test cases executed
+        - Defects found
+        - Test cases pending
+    - A test progress report helps to identify any potential issues or delays in the testing process and provides stakeholders with visibility into the testing progress
+- **Test Summary Report**
+    - A test summary report is a document that provides a summary of the testing results for a software project
+    - It includes:
+        - Testing objectives
+        - Test types and Techniques
+        - Testing results
+        - Any issues or defects found during testing
+    - A test summary report helps to ensure that the software meets the specified requirements and functionality, and provides stakeholders with an overview of the testing results
